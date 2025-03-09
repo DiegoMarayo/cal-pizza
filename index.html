@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Massa de Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Massa Pizza Napolitana</h1>
+
+        <label for="quantidadeMassa">Quantidade de massas (unidades):</label>
+        <input type="number" id="quantidadeMassa" placeholder="Ex: 3" required>
+
+        <label for="pesoUnidade">Peso por unidade (g):</label>
+        <input type="number" id="pesoUnidade" placeholder="Ex: 270" required>
+
+        <label for="hidratacao">Hidratação (%):</label>
+        <input type="number" id="hidratacao" placeholder="Ex: 60" required>
+
+        <label for="sal">Sal (%):</label>
+        <input type="number" id="sal" placeholder="Ex: 2 " required>
+
+        <label for="fermento">Fermento (%):</label>
+        <input type="number" id="fermento" placeholder="Ex: 0.3" required>
+
+        <label for="mel">Mel (%):</label>
+        <input type="number" id="mel" placeholder="Ex:0.8" required>
+    
+        <button onclick="calcularMassa()">Calcular</button>
+
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
