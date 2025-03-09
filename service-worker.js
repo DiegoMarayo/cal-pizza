@@ -7,8 +7,8 @@ self.addEventListener('install', (event) => {
                 '/index.html',
                 '/styles.css',
                 '/script.js',
-                '/Massa-Pizza/icon1.png',
-                '/Massa-Pizza/icon2.png',
+                '/cal-pizza/icon1.png',
+                '/cal-pizza/icon2.png',
             ]);
         })
     );
